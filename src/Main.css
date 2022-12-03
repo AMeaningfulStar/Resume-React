@@ -1,0 +1,27 @@
+.layout {
+  background-color: snow;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Header */
+.header-box{
+  min-width: 60vw;
+  display: flex;
+  justify-content:space-between;
+  border: 1px solid;
+}
+.photo-content{
+  background-color: darkgray;
+  width: 20vw;
+  height: 300px;
+  text-align: center;
+  line-height: 264px;
+}
+.myInfo-content{
+  width: 80vh;
+  border-left: 1px solid gray;
+}
