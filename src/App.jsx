@@ -6,10 +6,14 @@ import ContentBox from './components/ContentBox/ContentBox';
 
 function App() {
   return (
+    <div>
     <Layout>
+      
       <Top />
       <ContentBox />
     </Layout>
+    
+    </div>
   );
 }
 

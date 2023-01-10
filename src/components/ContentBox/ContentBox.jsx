@@ -1,11 +1,12 @@
 import React from 'react';
 import LeftSide from './LeftSide/LeftSide';
+import RightSide from './RightSide/RightSide';
 
 const ContentBox = () => {
   return (
     <div className='contentBox'>
       <LeftSide />
-      <div className='rightSide'></div>
+      <RightSide />
     </div>
   )
 }

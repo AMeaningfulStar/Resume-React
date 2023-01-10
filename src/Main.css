@@ -177,3 +177,87 @@ h6 {
   color: #fff;
   margin-right: 0;
 }
+
+/* ContentBox RightSide  Style */
+.rightSide {
+  padding-left: 40px;
+}
+
+/* Profile Style */
+p {
+  font-style: 300;
+}
+
+/* Experiance Style */
+.about .box {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+
+.about .box .year_company {
+  min-width: 150px;
+  margin-bottom: 10px;
+}
+
+.about .box .year_company h5 {
+  color: #333;
+  font-weight: 600;
+}
+
+.about .box .year_company h5:nth-child(1){
+  color: #3590b2;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Professional Skills Style */
+.about.skills .box {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.about.skills .box h4 {
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.about.skills .box .percent {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: #e3e3e3;
+}
+
+.about.skills .box .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #3590b2;
+}
+
+/* Snow Flake Style */
+.snowflake {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #333;
+  position: absolute;
+  top: -8px;
+}
+
+@keyframes fall {
+  from{
+
+  }
+  to{
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
